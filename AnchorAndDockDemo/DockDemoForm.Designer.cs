@@ -1,4 +1,4 @@
-﻿namespace AnchorDemo
+﻿namespace AnchorAndDockDemo
 {
     partial class DockDemoForm
     {
@@ -48,19 +48,19 @@
             // bRight
             // 
             this.bRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bRight.Location = new System.Drawing.Point(410, 49);
+            this.bRight.Location = new System.Drawing.Point(398, 49);
             this.bRight.Name = "bRight";
-            this.bRight.Size = new System.Drawing.Size(84, 244);
+            this.bRight.Size = new System.Drawing.Size(96, 244);
             this.bRight.TabIndex = 2;
-            this.bRight.Text = "Felülre dokkolva";
+            this.bRight.Text = "Jobbra dokkolva";
             this.bRight.UseVisualStyleBackColor = true;
             // 
             // bBottom
             // 
             this.bBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bBottom.Location = new System.Drawing.Point(91, 229);
+            this.bBottom.Location = new System.Drawing.Point(91, 249);
             this.bBottom.Name = "bBottom";
-            this.bBottom.Size = new System.Drawing.Size(319, 64);
+            this.bBottom.Size = new System.Drawing.Size(307, 44);
             this.bBottom.TabIndex = 3;
             this.bBottom.Text = "Alulra dokkolva";
             this.bBottom.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             this.bFill.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bFill.Location = new System.Drawing.Point(91, 49);
             this.bFill.Name = "bFill";
-            this.bFill.Size = new System.Drawing.Size(319, 180);
+            this.bFill.Size = new System.Drawing.Size(307, 200);
             this.bFill.TabIndex = 4;
             this.bFill.Text = "Kitöltés (Fill) dokkolva";
             this.bFill.UseVisualStyleBackColor = true;

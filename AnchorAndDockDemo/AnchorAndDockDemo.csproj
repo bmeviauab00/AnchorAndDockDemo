@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B2590908-2741-47E7-967A-0FD2B37DD448}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AnchorDemo</RootNamespace>
-    <AssemblyName>AnchorDemo</AssemblyName>
+    <RootNamespace>AnchorAndDockDemo</RootNamespace>
+    <AssemblyName>AnchorAndDockDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -83,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

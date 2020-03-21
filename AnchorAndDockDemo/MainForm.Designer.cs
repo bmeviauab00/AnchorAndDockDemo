@@ -1,4 +1,4 @@
-﻿namespace AnchorDemo
+﻿namespace AnchorAndDockDemo
 {
     partial class MainForm
     {
