@@ -14,7 +14,6 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -23,10 +22,13 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
+[Bb]in/*
 [Oo]bj/
 [Ll]og/
-
+[Dd]ebug/*
+!AnchorAndDockDemo/[Bb]in #maybe not needed?
+!AnchorAndDockDemo/bin/Debug #maybe not needed?
+!AnchorAndDockDemo/bin/Debug/AnchorAndDockDemo.exe #Publish this exe as well for easy execution
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -340,4 +342,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-!AnchorAndDockDemo/bin/[Dd]ebug/AnchorAndDockDemo.exe #Publish this exe as well for easy execution
+
+!AnchorAndDockDemo.exe 
