@@ -3,12 +3,12 @@
     partial class MainForm
     {
         /// <summary>
-        /// Required designer variable.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -34,9 +34,9 @@
             // 
             // bAnchorDemo
             // 
-            this.bAnchorDemo.Location = new System.Drawing.Point(47, 38);
+            this.bAnchorDemo.Location = new System.Drawing.Point(25, 26);
             this.bAnchorDemo.Name = "bAnchorDemo";
-            this.bAnchorDemo.Size = new System.Drawing.Size(194, 27);
+            this.bAnchorDemo.Size = new System.Drawing.Size(188, 29);
             this.bAnchorDemo.TabIndex = 0;
             this.bAnchorDemo.Text = "Anchor (horgonyzás) demo";
             this.bAnchorDemo.UseVisualStyleBackColor = true;
@@ -44,31 +44,31 @@
             // 
             // bDockDemo
             // 
-            this.bDockDemo.Location = new System.Drawing.Point(47, 84);
+            this.bDockDemo.Location = new System.Drawing.Point(25, 66);
             this.bDockDemo.Name = "bDockDemo";
-            this.bDockDemo.Size = new System.Drawing.Size(194, 27);
-            this.bDockDemo.TabIndex = 1;
+            this.bDockDemo.Size = new System.Drawing.Size(188, 29);
+            this.bDockDemo.TabIndex = 0;
             this.bDockDemo.Text = "Dock (dokk, csatolás) demo";
             this.bDockDemo.UseVisualStyleBackColor = true;
             this.bDockDemo.Click += new System.EventHandler(this.bDockDemo_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 153);
+            this.ClientSize = new System.Drawing.Size(241, 157);
             this.Controls.Add(this.bDockDemo);
             this.Controls.Add(this.bAnchorDemo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
-            this.Text = "Anchor és dock demo";
+            this.Text = "Anchor és Dock demo";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button bAnchorDemo;
-        private System.Windows.Forms.Button bDockDemo;
+        private Button bAnchorDemo;
+        private Button bDockDemo;
     }
 }

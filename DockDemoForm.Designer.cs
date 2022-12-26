@@ -103,10 +103,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bTop;
-        private System.Windows.Forms.Button bRight;
-        private System.Windows.Forms.Button bBottom;
-        private System.Windows.Forms.Button bFill;
-        private System.Windows.Forms.Button bLeft;
+        private Button bTop;
+        private Button bRight;
+        private Button bBottom;
+        private Button bFill;
+        private Button bLeft;
     }
 }

@@ -43,7 +43,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 40);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Horgonyzás: balra+fel (alapértelmezett";
+            this.button1.Text = "Horgonyzás: balra+fel (alapértelmezett)";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -121,7 +121,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AnchorDemoForm";
-            this.Text = "Anchor teszt";
+            this.Text = "Anchor (horgonyzás) teszt";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,13 +129,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private Button button1;
+        private Label label1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
     }
 }
 
